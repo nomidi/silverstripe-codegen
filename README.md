@@ -62,4 +62,16 @@ e.g
     RestfulApiController generator
         - takes a dataobject and creates restful actions
     
-     
+    could generate based on .yml config file, generate dataobject, form html, api, getCMSFields() etc
+    
+    DataObject
+        - Product:
+            db:
+                firstName:
+                    type: string
+                    class: form-control
+                    required: true
+                    attributes:
+                    
+                    
+                    
