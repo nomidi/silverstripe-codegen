@@ -76,3 +76,20 @@ e.g
     
     add CMSAction since its a pain in the us
                     
+
+
+    Spec files
+    
+    Objects
+        - Product
+            fields:
+                Title: Text,required,unique(),50%,.form-control,sameAs(EmailAddress)
+                EmailAddress: Email
+                
+    Generator:
+        DataObject(Product)
+        DataObjectForm(Product)
+        DataObjectFormHTML(Product)
+        
+    DataObject: Product,Type2,Type3 etc
+    Form: Product,Type1,Type2 etc
