@@ -27,6 +27,7 @@ e.g
         - $defaults stub
         - canCreate,canEdit,canDelete,canView stubs
         - getCMSForm() *after the $db,$has_one,$has_many has been updated
+        - sortOrder with remove from CMSForm && onBeforeWrite
     
     Page generator
         - $db stub
@@ -58,6 +59,7 @@ e.g
         
     SinglePageAdmin
         - takes a page and creates a single page admin 
+        - sort order
     
     RestfulApiController generator
         - takes a dataobject and creates restful actions
