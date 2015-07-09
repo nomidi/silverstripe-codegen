@@ -95,3 +95,11 @@ e.g
         
     DataObject: Product,Type2,Type3 etc
     Form: Product,Type1,Type2 etc
+    
+    
+    #For relationships could do then automatically add sort fields etc
+    - relation
+        Object1 *1 Object2
+        Object1 ** Object3
+        Object3 11 Object4
+        
